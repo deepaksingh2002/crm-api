@@ -27,6 +27,12 @@ with an in-memory MongoDB instance, and `npm run check` verifies the acceptance 
 
 Use the token with `Authorization: Bearer <token>`.
 
+## Postman
+
+Import [postman/crm-api.postman_collection.json](./postman/crm-api.postman_collection.json)
+into Postman. Run the register or login request first; the collection stores the JWT
+automatically. The public enquiry request stores its returned ID for the claim request.
+
 ## Environment
 
 - `MONGODB_URI`: MongoDB connection string.
